@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #808B96;
+}
+
+.hero-image{
+    background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0, 0.5)),
+    url(ektehost.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-image .hero-text{
+    color: #fff;
+    text-align: center;
+}
+
+.hero-image .hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-image .hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.hero-image .hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hero-image .hero-btn:hover{
+    background: #fff;
+    color: #000;
+}
+.textbox {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%   ;
+    border-box: black;
+    border-style: solid;
+    
+}
+.pics {
+   display: flex;          
+   justify-content: center;
+    align-items: center;
+    float: left;
+    object-fit: cover;
+    background-color: #FF5733;
+
+
+}
+.a {
+    color: red;
+}
+.b {
+    color: green;
+}
